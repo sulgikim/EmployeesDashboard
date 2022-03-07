@@ -49,7 +49,7 @@ function displayModal(i) {
     let eachEmployee = employees[i];
 
     document.querySelector("body").insertAdjacentHTML(
-        `beforeend`,
+        `beforeend`, 
         `<div id="modal${i}" class="modal-container">
         <div class="modal">
             <button type="button" id="modal-close-btn" class="modal-close-btn" onclick="closeModal(${i})"><strong>X</strong></button>
